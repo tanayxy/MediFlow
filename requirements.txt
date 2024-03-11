@@ -1,5 +1,5 @@
 fastapi 
-speech_recognition
+SpeechRecognition
 openai
 uvicorn
 python-multipart
