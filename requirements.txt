@@ -4,3 +4,4 @@ openai
 uvicorn
 python-multipart
 gunicorn
+io
