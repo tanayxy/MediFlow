@@ -1,0 +1,6 @@
+fastapi 
+speech_recognition
+openai
+uvicorn
+python-multipart
+gunicorn
