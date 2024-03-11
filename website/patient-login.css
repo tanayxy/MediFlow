@@ -1,0 +1,561 @@
+.frame-inner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-wrapper1 {
+  align-self: stretch;
+  width: 89.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.mediflow3 {
+  position: relative;
+  font-weight: 900;
+  background: linear-gradient(96.14deg, #3a8ef6, #6f3afa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mediflow-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.ellipse-shape1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: linear-gradient(96.14deg, #3a8ef6, #6f3afa);
+  box-shadow: 0 5.4px 25.66px rgba(22, 120, 242, 0.2),
+    0 5.4px 5.4px rgba(0, 0, 0, 0.12) inset;
+  width: 100%;
+  height: 100%;
+}
+.rectangle-rectangle1,
+.rectangle-rectangle2 {
+  position: absolute;
+  top: 0;
+  left: 5.7px;
+  border-radius: 1.06px;
+  background-color: var(--neutral-100);
+  width: 7px;
+  height: 18.3px;
+}
+.rectangle-rectangle2 {
+  top: 5.7px;
+  left: 18.3px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.rectangle-rectangle-parent {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 18.3px;
+  height: 18.3px;
+  z-index: 1;
+}
+.ellipse-shape-group {
+  width: 32.4px;
+  height: 32.4px;
+  position: relative;
+}
+.frame-parent1,
+.frame-wrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper2 {
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.frame-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 14.6px;
+  max-width: 100%;
+}
+.patient-login-portal {
+  position: relative;
+  white-space: nowrap;
+}
+.line-shape-child {
+  height: 2px;
+  flex: 1;
+  position: relative;
+  border-top: 2px solid var(--color-royalblue-200);
+  box-sizing: border-box;
+  opacity: 0.3;
+}
+.frame-wrapper3,
+.line-shape,
+.patient-login-portal-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line-shape {
+  width: 62.8px;
+  height: 0;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 0 3.400000000000091px;
+  box-sizing: border-box;
+}
+.frame-wrapper3,
+.patient-login-portal-parent {
+  flex-direction: column;
+}
+.patient-login-portal-parent {
+  gap: 6.3px 0;
+}
+.frame-wrapper3 {
+  padding: 0 0 2.899999999999636px;
+  font-size: var(--font-size-2xl-6);
+}
+.frame-header {
+  width: 864px;
+  height: 71.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-24xl-2);
+  color: var(--color-darkslategray);
+  font-family: var(--font-satoshi);
+}
+.background-icon2 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 34px;
+  top: 24px;
+  transform: scale(2.316);
+}
+.wrapper-background2 {
+  height: 485.9px;
+  width: 424.7px;
+  position: absolute;
+  margin: 0 !important;
+  right: -122.7px;
+  bottom: -139.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.easy-login,
+.integration,
+.seamless {
+  margin: 0;
+}
+.easy-login-seamless-container {
+  position: relative;
+  line-height: 76.04px;
+  z-index: 1;
+}
+.background-info {
+  height: 215px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.your-health-journey {
+  align-self: stretch;
+  height: 62.1px;
+  position: relative;
+  font-size: var(--font-size-8xl-2);
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.x-icon-frame,
+.x-icon-frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.x-icon-frame {
+  align-self: stretch;
+  gap: 16px 0;
+  min-height: 307px;
+}
+.x-icon-frame-wrapper {
+  width: 382.9px;
+  padding: var(--padding-26xl) 0 0;
+  box-sizing: border-box;
+  min-width: 382.9000000000001px;
+  max-width: 100%;
+}
+.image-1,
+.patient-login2 {
+  position: relative;
+  max-width: 100%;
+}
+.image-1 {
+  width: 1189px;
+  height: 779px;
+  transform: rotate(180deg);
+  display: none;
+}
+.patient-login2 {
+  flex: 1;
+  line-height: 70.6px;
+  display: inline-block;
+}
+.patient-login-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.patient-code {
+  position: absolute;
+  top: 0;
+  left: 19.8px;
+  font-size: var(--font-size-mid-8);
+  letter-spacing: 0.09em;
+  line-height: 76.04px;
+  font-weight: 500;
+  font-family: var(--font-satoshi);
+  color: var(--color-dimgray-100);
+  text-align: left;
+  z-index: 1;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 9.88px;
+  background-color: var(--color-aliceblue);
+  width: 100%;
+  height: 100%;
+}
+.x-icon2 {
+  position: absolute;
+  top: 17.8px;
+  left: 348.6px;
+  width: 23.7px;
+  height: 23.7px;
+  overflow: hidden;
+  z-index: 1;
+}
+.rectangle-container {
+  position: absolute;
+  top: 7.9px;
+  left: 0;
+  width: 395px;
+  height: 59.3px;
+}
+.rectangle-shape {
+  height: 77px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.patient-code-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child1 {
+  height: 59.3px;
+  width: 395px;
+  position: relative;
+  border-radius: 9.88px;
+  background-color: var(--color-aliceblue);
+  display: none;
+  max-width: 100%;
+}
+.div1,
+.x-icon3 {
+  position: relative;
+  z-index: 2;
+}
+.div1 {
+  font-size: var(--font-size-6xl-7);
+  line-height: 23.7px;
+  font-family: var(--font-inter);
+  color: var(--color-slategray-100);
+  text-align: left;
+}
+.x-icon3 {
+  height: 23.7px;
+  width: 23.7px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.problem-frame,
+.rectangle-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent1 {
+  flex: 1;
+  border-radius: 9.88px;
+  background-color: var(--color-aliceblue);
+  justify-content: space-between;
+  padding: 17.799999999999727px var(--padding-5xl) 17.500000000000455px
+    19.800000000000185px;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.problem-frame {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.having-problem {
+  position: relative;
+  font-size: var(--font-size-sm-8);
+  letter-spacing: 0.1em;
+  line-height: 76.04px;
+  font-weight: 500;
+  font-family: var(--font-satoshi);
+  color: var(--color-silver);
+  text-align: left;
+  z-index: 1;
+}
+.having-trouble-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 8px;
+}
+.rectangle-shape1 {
+  position: absolute;
+  top: 8.9px;
+  left: 0;
+  border-radius: 9.88px;
+  background-color: var(--color-mediumslateblue);
+  box-shadow: 0 11.9px 20.74px 3.95px rgba(68, 97, 242, 0.15);
+  width: 395px;
+  height: 59.3px;
+}
+.login1 {
+  position: absolute;
+  top: 0;
+  left: 163px;
+  font-size: 18.8px;
+  letter-spacing: 0.09em;
+  line-height: 76.04px;
+  font-family: var(--font-satoshi);
+  color: var(--neutral-100);
+  text-align: left;
+  z-index: 1;
+}
+.bouton-sign-in {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 77px;
+  position: relative;
+  z-index: 1;
+}
+.patient-code-text-parent,
+.three-dots-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.patient-code-text-parent {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: 10.87px 0;
+}
+.three-dots-text {
+  width: 422px;
+  flex-direction: row;
+  padding: 0 var(--padding-smi) 665.6999999999998px;
+  box-sizing: border-box;
+}
+.lorem-ipsum-dolor1 {
+  width: 835px;
+  height: 174px;
+  position: relative;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-itim);
+  color: var(--neutral-100);
+  display: inline-block;
+  max-width: 192%;
+  flex-shrink: 0;
+}
+.frame-parent2,
+.macbook-pro-16-31 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.macbook-pro-16-31 {
+  height: 497px;
+  width: 547px;
+  border-radius: var(--br-26xl);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(38, 88, 112, 0.2),
+    rgba(140, 173, 190, 0.2)
+  );
+  box-shadow: 0 4px 25px 5px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-14xl) var(--padding-37xl) 0;
+  box-sizing: border-box;
+  gap: 20.4px 0;
+  min-width: 547px;
+  font-size: var(--font-size-26xl-9);
+}
+.frame-parent2 {
+  width: 1286px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.patient-login-inner,
+.patient-login1 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.patient-login-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-sm);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-44xl-8);
+  color: var(--color-black);
+  font-family: var(--font-satoshi);
+}
+.patient-login1 {
+  width: 100%;
+  position: relative;
+  border-radius: 34.03px;
+  background-color: var(--color-ghostwhite-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-59xl) 98px 283px;
+  gap: 187.8px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .macbook-pro-16-31,
+  .x-icon-frame-wrapper {
+    flex: 1;
+  }
+  .frame-parent2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .easy-login-seamless-container,
+  .patient-login2 {
+    font-size: var(--font-size-32xl);
+    line-height: 61px;
+  }
+  .patient-login2 {
+    font-size: var(--font-size-18xl);
+  }
+  .three-dots-text {
+    padding-bottom: 433px;
+    box-sizing: border-box;
+  }
+  .lorem-ipsum-dolor1 {
+    font-size: var(--font-size-19xl);
+  }
+  .macbook-pro-16-31 {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .patient-login1 {
+    gap: 94px 0;
+    padding-left: var(--padding-30xl);
+    padding-right: var(--padding-30xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .x-icon-frame-wrapper {
+    min-width: 100%;
+  }
+  .three-dots-text {
+    padding-bottom: var(--padding-262xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .easy-login-seamless-container {
+    font-size: var(--font-size-19xl);
+    line-height: 46px;
+  }
+  .your-health-journey {
+    font-size: var(--font-size-3xl);
+  }
+  .x-icon-frame-wrapper {
+    padding-top: 29px;
+    box-sizing: border-box;
+  }
+  .patient-login2 {
+    font-size: var(--font-size-9xl);
+    line-height: 46px;
+  }
+  .div1 {
+    font-size: var(--font-size-2xl);
+    line-height: 19px;
+  }
+  .lorem-ipsum-dolor1 {
+    font-size: var(--font-size-10xl);
+  }
+  .patient-login1 {
+    gap: 47px 0;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
