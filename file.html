@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Audio File</title>
+</head>
+<body>
+    <h1>Upload Audio File</h1>
+    <input type="file" name="file" id="audio">
+    <button type="button" id="submitButton">Upload</button>
+    <div id="mainSummary">fff</div>
+    
+    <script>
+
+        const audio = document.querySelector("input#audio");
+        const submitButton = document.getElementById("submitButton");
+
+        submitButton.addEventListener("click", async  (e) => {
+
+            e.preventDefault()
+
+            const formData = new FormData();
+
+            console.log(audio.files[0]);
+
+            formData.append("file", audio.files[0]);
+
+            const resp = await fetch("http://localhost:8000/test", {
+                method: "POST",
+                body: formData,
+            })
+
+            const data = await response.json();
+                const responseText = document.getElementById('mainSummary');
+                responseText.textContent = data.summary;
+
+        })
+
+
+    </script>
+</body>
+</html>

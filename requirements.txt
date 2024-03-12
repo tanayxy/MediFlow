@@ -1,7 +1,6 @@
 fastapi 
-SpeechRecognition
+speech_recognition
 openai
 uvicorn
 python-multipart
 gunicorn
-io
