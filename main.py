@@ -1,18 +1,11 @@
 from fastapi import FastAPI, UploadFile, File
 import speech_recognition as sr
 import logging
-import openai
-import io
-import wave
 from fastapi import FastAPI, UploadFile, File, Depends
-from scipy import signal
-import soundfile as sf
-import librosa
-import numpy as np
 from fastapi.middleware.cors import CORSMiddleware
 from openai import OpenAI
 client = OpenAI(
-    api_key = "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")
+    api_key = "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")
 
 app = FastAPI()
 
